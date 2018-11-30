@@ -275,7 +275,7 @@ var tab_about = document.createElement('div');
 tab_about.style.display = 'none';
 tab_about.id='about';
 tab_about.className = 'tab';
-tab_about.innerHTML = '<p><h4>Author</h4><p>Name: Lê Nguyễn Thành Long(<a href="https://www.facebook.com/William.2418">ThànhLong</a>).<br/>Date of Birth: 18/06/2000.<br/>Github: <a href="https://github.com/Long18">@Long18</a>.<br/><br/><br/>Have fun!!</p>';
+tab_about.innerHTML = '<p><h4>Author</h4><p>Name: Lê Nguyễn Thành Long(<a href="https://www.facebook.com/William.2418">ThànhLong</a>).<br/>Date of Birth: 18/06/2000.<br/>Github: <a href="https://github.com/Long18">@18</a>.<br/><br/><br/>Have fun!!</p>';
 
 tab_about.querySelectorAll('h4').forEach((that) => {that.style='color:white;font-weight: 600;';});
 tab_about.querySelectorAll('a').forEach((that) => {that.style='color:white;font-weight: 600;';});
